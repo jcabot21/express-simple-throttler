@@ -1,0 +1,25 @@
+{
+  "name": "express-throttler",
+  "version": "0.1.0",
+  "description": "Simple throttling middleware, slows down requests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcabot21/express-throttler.git"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "throttle",
+    "slowdown"
+  ],
+  "author": "Jorge Cabot <jcabot21@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jcabot21/express-throttler/issues"
+  },
+  "homepage": "https://github.com/jcabot21/express-throttler#readme"
+}
