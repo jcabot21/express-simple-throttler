@@ -10,7 +10,7 @@ Super tiny helper middleware for slowing down requests. Use for your testing.
 
 ## How-to
 
-The middleware comes in to flavors, constant and random.
+The middleware comes in two flavors, constant and random.
 
 ### Constant
 
