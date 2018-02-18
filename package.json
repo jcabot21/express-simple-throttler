@@ -1,5 +1,5 @@
 {
-  "name": "express-throttler",
+  "name": "express-simple-throttler",
   "version": "0.1.1",
   "description": "Simple throttling middleware, slows down requests.",
   "main": "index.js",
