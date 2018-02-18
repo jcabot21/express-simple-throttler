@@ -1,5 +1,7 @@
 # Express-Throttler
 
+[![CircleCI](https://circleci.com/gh/jcabot21/express-throttler/tree/develop.svg?style=svg)](https://circleci.com/gh/jcabot21/express-throttler/tree/develop)
+
 Super tiny helper middleware for slowing down requests. Use for your testing.
 
 ## Install
