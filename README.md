@@ -1,6 +1,7 @@
 # Express-Throttler
 
 [![CircleCI](https://circleci.com/gh/jcabot21/express-throttler/tree/develop.svg?style=svg)](https://circleci.com/gh/jcabot21/express-throttler/tree/develop)
+[![Coverage Status](https://coveralls.io/repos/github/jcabot21/express-throttler/badge.svg?branch=develop)](https://coveralls.io/github/jcabot21/express-throttler?branch=develop)
 
 Super tiny helper middleware for slowing down requests. Use for your testing.
 
