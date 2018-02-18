@@ -7,10 +7,10 @@ const random = require('lodash.random');
  * be some random amount betwen 0 and the specified delay instead of constant. By default
  * the delay applied will be constant.
  * 
- * @param {number} delay - delay to apply to requests, specified in milliseconds
- * @param {boolean} [randomize] - defaults to false, if specified delay will be random instead of constant
+ * @param {number} delay delay to apply to requests, specified in milliseconds
+ * @param {boolean} [randomize] defaults to false, if specified delay will be random instead of constant
  * 
- * @returns {Function} - express middleware which will apply delay
+ * @returns {Function} express middleware which will apply delay
  */
 module.exports = (delay, randomize = false) => 
     (request, response, next) => 
