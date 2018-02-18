@@ -27,4 +27,7 @@ jobs:
             - ./node_modules
         
       # run tests!
-      - run: npm test
+      - run: npm run cover
+
+      # report code coverage
+      - run: npm run report
