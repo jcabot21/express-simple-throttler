@@ -38,4 +38,6 @@ app.use(throttler(upToTwentySeconds, true));
 
 ## Tests
 
+Tests are run with jasmine through the test command as follows:
+
 `npm test`
