@@ -28,17 +28,17 @@ describe('express-throttler', () => {
         });
     });
 
-    // it('can take anytime when random is specified', done => {
-    //     const middleware = throttler(standardDelay);
-    //     const start = present();
+    it('can take anytime when random is specified', done => {
+        const middleware = throttler(standardDelay);
+        const start = present();
 
-    //     middleware(undefined, undefined, () => {
-    //         const end = present();
-    //         const runtime = end - start;
-    //         const tookTime = runtime <= standardDelay || runtime >= standardDelay;
+        middleware(undefined, undefined, () => {
+            const end = present();
+            const runtime = end - start;
+            const tookTime = runtime <= standardDelay || runtime >= standardDelay;
 
-    //         expect(tookTime).toBe(true);
-    //         done();
-    //     });
-    // });
+            expect(tookTime).toBe(true);
+            done();
+        });
+    });
 });

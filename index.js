@@ -14,5 +14,5 @@ const random = require('lodash.random');
  */
 module.exports = (delay, randomize = false) => 
     (request, response, next) => 
-        Promise.delay(!randomize ? delay - 300 : random(0, delay))
+        Promise.delay(!randomize ? delay : random(0, delay))
             .then(() => next());
