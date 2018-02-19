@@ -29,7 +29,7 @@ describe('express-throttler', () => {
     });
 
     it('can take anytime when random is specified', done => {
-        const middleware = throttler(standardDelay);
+        const middleware = throttler(standardDelay, true);
         const start = present();
 
         middleware(undefined, undefined, () => {
