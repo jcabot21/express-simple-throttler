@@ -23,13 +23,13 @@ describe('express-throttler', () => {
         middleware(undefined, undefined, () => {
             const end = present();
 
-            expect(end - start).toBeGreaterThan(standardDelay - 2); // Subtracting a few milliseconds to avoid js timing issue
+            expect(end - start).toBeGreaterThan(standardDelay);
             done();
         });
     });
 
     it('can take anytime when random is specified', done => {
-        const middleware = throttler(standardDelay, true);
+        const middleware = throttler(standardDelay);
         const start = present();
 
         middleware(undefined, undefined, () => {
