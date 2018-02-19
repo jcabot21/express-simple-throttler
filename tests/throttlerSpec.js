@@ -23,7 +23,7 @@ describe('express-throttler', () => {
         middleware(undefined, undefined, () => {
             const end = present();
 
-            expect(end - start).toBeGreaterThan(standardDelay - 2); // Subtracting a few milliseconds to avoid js timing issue
+            expect(end - start).toBeGreaterThan(standardDelay);
             done();
         });
     });
