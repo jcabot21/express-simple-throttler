@@ -1,6 +1,6 @@
 {
   "name": "express-simple-throttler",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Simple throttling middleware, slows down requests.",
   "main": "index.js",
   "scripts": {
