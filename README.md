@@ -1,7 +1,7 @@
 # Express-Simple-Throttler
 
 [![npm version](https://badge.fury.io/js/express-simple-throttler.svg)](https://badge.fury.io/js/express-simple-throttler)
-[![CircleCI](https://circleci.com/gh/jcabot21/express-throttler/tree/master.svg?style=shield)](https://circleci.com/gh/jcabot21/express-throttler/tree/develop)
+[![CircleCI](https://circleci.com/gh/jcabot21/express-simple-throttler.svg?style=shield)](https://circleci.com/gh/jcabot21/express-throttler)
 [![Coverage Status](https://coveralls.io/repos/github/jcabot21/express-throttler/badge.svg?branch=master)](https://coveralls.io/github/jcabot21/express-throttler?branch=develop)
 
 Super tiny helper middleware for slowing down requests. Use for your testing.
